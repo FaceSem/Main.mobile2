@@ -2091,7 +2091,7 @@ body {
         font-family: 'Open Sans';
         color: #000000;
         font-weight: bold;
-        font-size: 6vw;
+        font-size: 5.5vw;
         top: 46vh;
         z-index: 3;
     }
@@ -2844,10 +2844,85 @@ body {
 
 
     .logo-violet{
-        width: 181vw;
-        margin-left: -35vw;
+        width: 100vw;
+        margin-left: 0vw;
         margin-top: 10vw;
         z-index: 3;
+    }
+
+    .parent {
+        position: relative;
+    }
+   
+    .cell1 {
+        width: 20vw;
+        height: auto;
+        position: absolute;
+        z-index: 999;
+        top: -35vw;
+        left: 60vw;
+        animation-name: floating_1;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+    .cell2 {
+        width: 20vw;
+        height: auto;
+        position: absolute;
+        z-index: 999;
+        top: -20vw;
+        left: 25vw;
+        animation-name: floating_1;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+    .cell3 {
+        width: 20vw;
+        height: auto;
+        position: absolute;
+        z-index: 999;
+        top: -45vw;
+        left: 30vw;
+        animation-name: floating_1;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+    .cell4 {
+        width: 30vw;
+        height: auto;
+        position: absolute;
+        z-index: 999;
+        top: -47vw;
+        left: -7vw;
+        animation-name: floating_1;
+        animation-duration: 9s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+    .cell5 {
+        width: 30vw;
+        height: auto;
+        position: absolute;
+        z-index: 999;
+        top: -33vw;
+        left: 83vw;
+        animation-name: floating_1;
+        animation-duration: 7s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+    @-webkit-keyframes floating_1 {
+        0% { transform: translateY(-15px); }
+        50% { transform: translateY(15px); }
+        100% { transform: translateY(-15px); }
     }
 
     .spoiler-white-footer {
@@ -2902,7 +2977,7 @@ body {
 
     .white-header {
         background-color: white;
-        margin-top: -20vw;
+        margin-top: -10vw;
     }
 
     .white-head {
@@ -3062,9 +3137,10 @@ body {
     .spoiler-face-subdiv {
         display: flex;
         flex-direction: row;
-        margin-left: 10vw;
+        margin-left: 8vw;
         margin-right: 9vw;
         margin-bottom: 7vw;
+        width: 84vw;
     }
 
     .point {
@@ -3082,13 +3158,13 @@ body {
         font-size: 3.8vw;
         line-height: 5vw;
         margin-top: 9vw;
-        margin-left: 14vw;
+        margin-left: 10vw;
         margin-right: 8vw;
     }
 
     .btn-3 {
         margin-top: 14vw;
-        margin-left: 29vw;
+        margin-left: 26vw;
     }
 
     .discover-btn3 {
@@ -3139,7 +3215,7 @@ body {
     .spoiler-h1-head {
         width: 100vw;
         background-color: white;
-        margin-top: -5vw;
+        margin-top: -10vw;
     }
 
     .header-h1 {
@@ -3166,9 +3242,156 @@ body {
     }
 
     .illustration {
-        width: 90vw;
-        margin-left: 5vw;
+        width: 85vw;
+        margin-left: 8vw;
         margin-top: 8vw;
+    }
+
+    .parent2 {
+        position: relative;
+    }
+
+    .ingr1 {
+        position: absolute;
+        width: 30vw;
+        top: -51vw;
+        z-index: 999;
+        animation-name: floating_1;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+    .ingr2 {
+        position: absolute;
+        width: 17vw;
+        top: -35vw;
+        left: 13vw;
+        z-index: 999;
+        animation-name: floating_1;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+    .ingr3 {
+        position: absolute;
+        width: 13vw;
+        top: -40vw;
+        left: 27vw;
+        z-index: 999;
+        animation-name: floating_1;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+    .ingr4 {
+        position: absolute;
+        width: 13vw;
+        top: -49vw;
+        left: 37vw;
+        z-index: 999;
+        animation-name: floating_1;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+    .ingr5 {
+        position: absolute;
+        width: 25vw;
+        top: -23vw;
+        left: 20vw;
+        z-index: 999;
+        animation-name: floating_1;
+        animation-duration: 9s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+    .ingr6 {
+        position: absolute;
+        width: 25vw;
+        top: -36vw;
+        left: 37vw;
+        z-index: 999;
+        animation-name: floating_1;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+    .ingr7 {
+        position: absolute;
+        width: 16vw;
+        top: -26vw;
+        left: 41vw;
+        z-index: 999;
+        animation-name: floating_1;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+    .ingr8 {
+        position: absolute;
+        width: 11vw;
+        top: -30vw;
+        left: 56vw;
+        z-index: 999;
+        animation-name: floating_1;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+    .ingr9 {
+        position: absolute;
+        width: 11vw;
+        top: -54vw;
+        left: 55vw;
+        z-index: 999;
+        animation-name: floating_1;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+    .ingr10 {
+        position: absolute;
+        width: 15vw;
+        top: -50vw;
+        left: 64vw;
+        z-index: 999;
+        animation-name: floating_1;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+    .ingr11 {
+        position: absolute;
+        width: 13vw;
+        top: -44vw;
+        left: 70vw;
+        z-index: 999;
+        animation-name: floating_1;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+    .ingr12 {
+        position: absolute;
+        width: 25vw;
+        top: -29vw;
+        left: 69vw;
+        z-index: 999;
+        animation-name: floating_1;
+        animation-duration: 7s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
     }
 
     .cytoprotective-header {
@@ -3623,7 +3846,7 @@ body {
 
     .table-animation td {
         width: 25vw;
-        height: 7.5vw;
+        height: 7.6vw;
     }
 
     .ph1 {
@@ -3676,7 +3899,38 @@ body {
       .img-14{ animation-delay: 14s }
       .img-15{ animation-delay: 15s }
       .img-16{ animation-delay: 16s }
+
+      @media screen and (max-width: 425px) {
+        .table-animation {
+            margin-top: -81vw;
+            margin-left: 45vw;
+            z-index: 999;
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+        .table-animation td {
+            width: 25vw;
+            height: 7.2vw;
+        }
+
+        .trans {
+            width: 14vw!important;
+            height: 5vw!important;
+            margin-left: -5vw;
+        }
+    }
       
+    @media screen and (max-width: 320px) {
+        .table-animation td {
+            width: 25vw;
+            height: 7.1vw;
+        }
+    }
+    
+    .footer{
+        margin-top: 20vw;
+    }
 }
 
 
