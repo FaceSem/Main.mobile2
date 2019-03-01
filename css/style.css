@@ -3900,11 +3900,16 @@ body {
       .img-15{ animation-delay: 15s }
       .img-16{ animation-delay: 16s }
 
-      @media screen and (max-width: 425px) {
+    @media screen and (max-width: 425px) {
         .table-animation {
             margin-top: -81vw;
             margin-left: 45vw;
             z-index: 999;
+        }
+
+        .table-animation td {
+            width: 25vw;
+            height: 7.5vw;
         }
     }
 
