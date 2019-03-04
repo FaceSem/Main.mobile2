@@ -2156,7 +2156,7 @@ body {
         }
         
         .facial-sheet-img {
-            top: 75vw;
+            top: 80vw;
             left: 16vw;
             width: 67vw;
             height: 86vw;
@@ -3939,7 +3939,7 @@ body {
 
     @media screen and (max-width: 375px) {
         .white-head {
-            margin-top: -20vw;
+            margin-top: 15vw;
         }
                 
         .section-1-text {
