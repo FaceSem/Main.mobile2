@@ -3921,7 +3921,7 @@ body {
         }
 
         .white-head {
-            margin-top: 55vw;
+            margin-top: 60vw;
         }
         
         .table-animation {
@@ -3938,7 +3938,7 @@ body {
 
     @media screen and (max-width: 375px) {
         .white-head {
-            margin-top: 45vw;
+            margin-top: 55vw;
         }
                 
         .section-1-text {
@@ -3999,7 +3999,7 @@ body {
       
     @media screen and (max-width: 320px) {
         .white-head {
-            margin-top: 40vw;
+            margin-top: 50vw;
         }
         
         .section-1-text {
