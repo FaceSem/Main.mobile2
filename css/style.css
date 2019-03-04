@@ -2092,7 +2092,7 @@ body {
         color: #000000;
         font-weight: bold;
         font-size: 5.5vw;
-        top: 46vh;
+        top: 75vw;
         z-index: 3;
     }
 
@@ -2102,7 +2102,7 @@ body {
     }
 
     .section-2 {
-        padding: 5vw 0 100px 0;
+        padding: 0vw 0 100px 0;
         background-color: #fcfcfc;
         width: 100vw;
         display: flex;
@@ -2132,6 +2132,7 @@ body {
         width: 100vw;
         overflow: hidden;
         height: 80vw;
+        z-index: 0;
     }
 
     @media screen and (orientation: landscape) {
@@ -2149,9 +2150,9 @@ body {
     
     @media screen and (orientation: portrait) {
         .bubbles {
-            height: 80vw;
-            min-height: 300px;
-           
+            height: 100vw;
+            min-height: 450px;
+            background-color: white;
         }
         
         .facial-sheet-img {
@@ -2292,8 +2293,8 @@ body {
     }
 
     .spoiler {
-        /* background-color: rgb(219, 255, 224); */
-        margin-top: 4px;
+        background-color: #fafaf9;
+        margin-top: -6vw;
     }
 
     .green {
@@ -2466,8 +2467,8 @@ body {
     }
 
     .main_block {
-        margin-top: 4vw;
-        margin-bottom: 4vw;
+        margin-top: 10vw;
+        margin-bottom: -10vw;
         margin-left: 9vw;
     }
 
@@ -2747,7 +2748,7 @@ body {
         margin-left: 15vw;
         font-size: 8vw;
         font-weight: bold;
-        margin-top: 11vw;
+        margin-top: 1vw;
         margin-bottom: 4vw;
         line-height: 1.1;
         letter-spacing: -2px;
@@ -2781,6 +2782,7 @@ body {
         width: 100vw;
         margin-top: 2vw;
         z-index: 1;
+        margin-bottom: -2vw;
     }
 
     .menu-click {
@@ -2809,7 +2811,7 @@ body {
         width: 100vw;
         height: 20vw;
         margin-top: -15vw;
-        margin-bottom: -2vw;
+        margin-bottom: -4vw;
         background-color: #fcfcfc;
     }
 
@@ -2818,7 +2820,7 @@ body {
     }
 
     .violet-header {
-        margin-top: 13vw;
+        margin-top: 1vw;
     }
 
     .spoiler-subtitle {
@@ -2838,10 +2840,14 @@ body {
     }
 
     .orange-span {
-        font-weight: bolder;
+        font-size: 4vw;
+        font-weight: 800;
         color: #f4bc42;
     }
-
+    .orange-span2 {
+        font-weight: 800;
+        color: #f4bc42;
+    }
 
     .logo-violet{
         width: 100vw;
@@ -2859,8 +2865,8 @@ body {
         height: auto;
         position: absolute;
         z-index: 999;
-        top: -35vw;
-        left: 60vw;
+        top: -59vw;
+        left: 67vw;
         animation-name: floating_1;
         animation-duration: 5s;
         animation-iteration-count: infinite;
@@ -2872,7 +2878,7 @@ body {
         height: auto;
         position: absolute;
         z-index: 999;
-        top: -20vw;
+        top: -49vw;
         left: 25vw;
         animation-name: floating_1;
         animation-duration: 8s;
@@ -2885,7 +2891,7 @@ body {
         height: auto;
         position: absolute;
         z-index: 999;
-        top: -45vw;
+        top: -70vw;
         left: 30vw;
         animation-name: floating_1;
         animation-duration: 6s;
@@ -2898,7 +2904,7 @@ body {
         height: auto;
         position: absolute;
         z-index: 999;
-        top: -47vw;
+        top: -70vw;
         left: -7vw;
         animation-name: floating_1;
         animation-duration: 9s;
@@ -2911,8 +2917,8 @@ body {
         height: auto;
         position: absolute;
         z-index: 999;
-        top: -33vw;
-        left: 83vw;
+        top: -60vw;
+        left: 85vw;
         animation-name: floating_1;
         animation-duration: 7s;
         animation-iteration-count: infinite;
@@ -2935,10 +2941,10 @@ body {
     }
 
     .click-violet {
-        margin-top: -6vw;
+        margin-top: -19vw;
         padding-bottom: 7vw;
-        background-color: white;
-        z-index: 2;
+        background-color: #fafaf9;
+        z-index: 999;
         padding-top: 5vw;
     }
 
@@ -2962,7 +2968,8 @@ body {
 
     .blue-span {
         color: #55c2f1;
-        font-weight: bolder;
+        font-weight: 800;
+        font-size: 4vw;
     }
 
     .ingradients{
@@ -2981,7 +2988,7 @@ body {
     }
 
     .white-head {
-        margin-top: 20vw;
+        margin-top: 95vw;
     }
 
     .white-text {
@@ -3043,7 +3050,6 @@ body {
     .circle2 {
         top: -7vw;
         left: 43.2vw;
-
     }
 
     .circle3 {
@@ -3100,7 +3106,7 @@ body {
   
 
     .spoiler-body {
-        background-color: white;
+        background-color: #fafaf9;
     }
    
     .spoiler-bubbles {
@@ -3112,8 +3118,17 @@ body {
     }
 
     .spoiler-underbubbles {
+        width: 100vw;
+        background-color: #fcfcfc;
+        position: relative;
+        z-index: 999;
+        margin-top: 10vw;
+        padding-bottom: 9vw;
+    }
+
+    .spoiler-underbubbles-p {
         font-size: 4vw;
-        margin-top: 15vw;
+        padding-top: 5vw;
         margin-right: 12vw;
         margin-bottom: 1vw;
         margin-left: 12vw;
@@ -3214,14 +3229,13 @@ body {
 
     .spoiler-h1-head {
         width: 100vw;
-        background-color: white;
         margin-top: -10vw;
     }
 
     .header-h1 {
         font-size: 5.5vw;
         font-weight: bolder;
-        padding-top: 18vw;
+        padding-top: 7vw;
         margin-left: 15vw;
         letter-spacing: 0px;
     } 
@@ -3434,6 +3448,7 @@ body {
         margin-left: 15vw;
         margin-top: 14vw;
         letter-spacing: 1px;
+        line-height: 6vw;
     }
 
     .blue-line3 {
@@ -3470,7 +3485,7 @@ body {
 
     .spoiler3-h1 {
         font-size: 5.5vw;
-        margin-top: 17vw;
+        margin-top: 5vw;
         margin-left: 15vw;
         font-weight: 800;
     }
@@ -3777,7 +3792,7 @@ body {
 
     .subheader2 {
         margin-left: 4vw;
-        width: 32vw;
+        width: 34vw;
     }
    
     .text2 {
@@ -3861,8 +3876,9 @@ body {
 
     .trans {
         width: 15vw!important;
-        height: 6vw!important;
+        height: 5.5vw!important;
         margin-left: -5vw;
+        margin-top: -0.5vw;
     }
 
     .change-img{
@@ -3901,6 +3917,14 @@ body {
       .img-16{ animation-delay: 16s }
 
     @media screen and (max-width: 425px) {
+        .section-1-text {
+            top: 98vw;
+        }
+
+        .white-head {
+            margin-top: 10vw;
+        }
+        
         .table-animation {
             margin-top: -81vw;
             margin-left: 45vw;
@@ -3909,11 +3933,59 @@ body {
 
         .table-animation td {
             width: 25vw;
-            height: 7.5vw;
+            height: 7.3vw;
         }
     }
 
     @media screen and (max-width: 375px) {
+        .white-head {
+            margin-top: -20vw;
+        }
+                
+        .section-1-text {
+            top: 108vw;
+        }
+
+        .bubble {
+            user-select: none;
+            display: none;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 90px;
+            height: 90px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            color: #000000;
+            font-family: "Open Sans";
+            font-weight: bold;
+            font-size: 14px;
+            background-size: contain;
+            padding: 10px;
+            background-repeat: no-repeat;
+            background-position: -2px -2px;
+            background-size: 102%;
+            border-radius: 50%;
+            box-shadow: -12px 19px 82px -19px rgba(0, 0, 0, 0.75);
+            z-index: 1;
+        }
+
+        .bubbles {
+            height: 80vw;
+            min-height: 400px;
+            background-color: white;
+        }
+
+        .spoiler-underbubbles {
+            width: 100vw;
+            background-color: #fcfcfc;
+            position: relative;
+            z-index: 999;
+            margin-top: 8vw;
+            padding-bottom: 1vw;
+        }
+        
         .table-animation td {
             width: 25vw;
             height: 7.2vw;
@@ -3921,20 +3993,63 @@ body {
 
         .trans {
             width: 14vw!important;
-            height: 5vw!important;
+            height: 5.5vw!important;
             margin-left: -5vw;
         }
     }
       
     @media screen and (max-width: 320px) {
+        .white-head {
+            margin-top: -50vw;
+        }
+        
+        .section-1-text {
+            top: 118vw;
+        }
+        .bubble {
+            user-select: none;
+            display: none;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 60px;
+            height: 60px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            color: #000000;
+            font-family: "Open Sans";
+            font-weight: bold;
+            font-size: 11px;
+            background-size: contain;
+            padding: 10px;
+            background-repeat: no-repeat;
+            background-position: -2px -2px;
+            background-size: 102%;
+            border-radius: 50%;
+            box-shadow: -12px 19px 82px -19px rgba(0, 0, 0, 0.75);
+            z-index: 1;
+        }
+
+        .bubbles {
+            height: 80vw;
+            min-height: 350px;
+            background-color: white;
+        }
+
+        .spoiler-underbubbles {
+            width: 100vw;
+            background-color: #fcfcfc;
+            position: relative;
+            z-index: 999;
+            margin-top: 4vw;
+            padding-bottom: 1vw;
+        }
+        
         .table-animation td {
             width: 25vw;
             height: 7.1vw;
         }
-    }
-    
-    .footer{
-        margin-top: 20vw;
     }
 }
 

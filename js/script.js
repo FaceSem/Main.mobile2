@@ -202,9 +202,9 @@ $(document).ready(function () {
     if ($(".desktop").css("display") == "none") {
         bubblecount = ($(".section-1").width() / 10);
         topPos = 12;
-        randomMax = 88;
+        randomMax = 180;
         maxLeft = 80;
-        posName = "vh";
+        posName = "vw";
     } else {
         bubblecount = ($(".section-1").width() / 100) / 1.3;
         topPos = 6;
