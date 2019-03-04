@@ -3918,7 +3918,7 @@ body {
 
     @media screen and (max-width: 425px) {
         .section-1-text {
-            top: 98vw;
+            top: 0vw;
         }
 
         .white-head {
@@ -3939,7 +3939,7 @@ body {
 
     @media screen and (max-width: 375px) {
         .white-head {
-            margin-top: 120vw;
+            margin-top: 0vw;
         }
                 
         .section-1-text {
@@ -4000,7 +4000,7 @@ body {
       
     @media screen and (max-width: 320px) {
         .white-head {
-            margin-top: 120vw;
+            margin-top: 0vw;
         }
         
         .section-1-text {
