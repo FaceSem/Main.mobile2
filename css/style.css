@@ -3918,11 +3918,11 @@ body {
 
     @media screen and (max-width: 425px) {
         .section-1-text {
-            top: 0vw;
+            top: 98vw;
         }
 
         .white-head {
-            margin-top: 120vw;
+            margin-top: 30vw;
         }
         
         .table-animation {
@@ -3939,7 +3939,7 @@ body {
 
     @media screen and (max-width: 375px) {
         .white-head {
-            margin-top: 0vw;
+            margin-top: -10vw;
         }
                 
         .section-1-text {
@@ -4000,7 +4000,7 @@ body {
       
     @media screen and (max-width: 320px) {
         .white-head {
-            margin-top: 0vw;
+            margin-top: -30vw;
         }
         
         .section-1-text {
