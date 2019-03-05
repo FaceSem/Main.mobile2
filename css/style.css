@@ -3999,7 +3999,8 @@ body {
             width: 14vw!important;
             height: 5.5vw!important;
             margin-left: -5vw;
-            margin-top: -1vw;
+            position: relative;
+            top: -0.5vw;
         }
     }
       
