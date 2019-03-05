@@ -2467,7 +2467,7 @@ body {
 
     .main_block {
         margin-top: 10vw;
-        margin-bottom: -10vw;
+        margin-bottom: -5vw;
         margin-left: 9vw;
     }
 
@@ -2779,9 +2779,10 @@ body {
 
     .spoiler-logo {
         width: 100vw;
-        margin-top: 2vw;
-        z-index: 1;
-        margin-bottom: -2vw;
+        margin-top: 15vw;
+        z-index: 999;
+        margin-bottom: -9vw;
+        position: relative;
     }
 
     .menu-click {
@@ -2839,7 +2840,7 @@ body {
     }
 
     .orange-span {
-        font-size: 4vw;
+        font-size: 4.3vw;
         font-weight: 800;
         color: #f4bc42;
     }
@@ -2940,7 +2941,7 @@ body {
     }
 
     .click-violet {
-        margin-top: -19vw;
+        margin-top: -13vw;
         padding-bottom: 7vw;
         background-color: #fafaf9;
         z-index: 999;
@@ -2968,7 +2969,7 @@ body {
     .blue-span {
         color: #55c2f1;
         font-weight: 800;
-        font-size: 4vw;
+        font-size: 4.3vw;
     }
 
     .ingradients{
@@ -3228,7 +3229,9 @@ body {
 
     .spoiler-h1-head {
         width: 100vw;
-        margin-top: -10vw;
+        margin-top: -20vw;
+        position: relative;
+        z-index: 999;
     }
 
     .header-h1 {
@@ -3446,7 +3449,7 @@ body {
         width: 55vw;
         margin-left: 15vw;
         margin-top: 14vw;
-        letter-spacing: 1px;
+        letter-spacing: 0px;
         line-height: 6vw;
     }
 
@@ -3710,6 +3713,7 @@ body {
     .spoiler4-box {
         display: flex;
         flex-direction: row;
+        position: relative;
     }
 
     .spoiler4-header {
@@ -3921,7 +3925,7 @@ body {
         }
 
         .white-head {
-            margin-top: 60vw;
+            margin-top: 35vw;
         }
         
         .table-animation {
@@ -3938,7 +3942,7 @@ body {
 
     @media screen and (max-width: 375px) {
         .white-head {
-            margin-top: 55vw;
+            margin-top: 30vw;
         }
                 
         .section-1-text {
@@ -3994,12 +3998,13 @@ body {
             width: 14vw!important;
             height: 5.5vw!important;
             margin-left: -5vw;
+            margin-top: -1vw;
         }
     }
       
     @media screen and (max-width: 320px) {
         .white-head {
-            margin-top: 50vw;
+            margin-top: 25vw;
         }
         
         .section-1-text {
@@ -4049,6 +4054,54 @@ body {
             width: 25vw;
             height: 7.1vw;
         }
+    }
+
+    .bag {
+        position: absolute;
+        width: 30vw;
+        top: 40vw;
+        left: 68vw;
+        animation-name: floating_1;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+    .drop {
+        position: absolute;
+        width: 30vw;
+        top: 30vw;
+        left: 2vw;
+        animation-name: floating_1;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+    .facial-sheet {
+        position: absolute;
+        width: 30vw;
+        left: 69vw;
+        top: 35vw;
+        animation-name: floating_1;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+    .splash {
+        position: absolute;
+        width: 35vw;
+        top: 37vw;
+        left: -1vw;
+        animation-name: floating_1;
+        animation-duration: 7s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+    .footer {
+        margin-top: 2vw;
     }
 }
 

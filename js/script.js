@@ -208,13 +208,13 @@ $(document).ready(function () {
     } else {
         bubblecount = ($(".section-1").width() / 100) / 1.3;
         topPos = 6;
-        randomMax = 40;
+        randomMax = 10;
         maxLeft = 100;
         posName = "vw";
     }
     for (var i = 0; i <= bubblecount; i++) {
-        var sizeBlue = ((Math.random() * randomMax + 40) / 2);
-        var sizeGreen = ((Math.random() * randomMax + 40) / 2);
+        var sizeBlue = ((Math.random() * randomMax + 20) / 4);
+        var sizeGreen = ((Math.random() * randomMax + 20) / 4);
         $(".section-1").append('<span class="particle-blue" style="top:' + (Math.random() * randomMax + topPos) + posName + '; left:' + (Math.random() * maxLeft) + '%;width:' + sizeBlue + 'px; height:' + sizeBlue + 'px;animation-delay: ' + ((Math.random() * 30) / 10) + 's;"></span>');
         $(".section-1").append('<span class="particle-green" style="top:' + (Math.random() * randomMax + topPos) + posName + '; left:' + (Math.random() * maxLeft) + '%;width:' + sizeGreen + 'px; height:' + sizeGreen + 'px;animation-delay: ' + ((Math.random() * 30) / 10) + 's;"></span>');
     }
