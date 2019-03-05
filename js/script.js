@@ -205,12 +205,14 @@ $(document).ready(function () {
         randomMax = 180;
         maxLeft = 80;
         posName = "vw";
+        
     } else {
         bubblecount = ($(".section-1").width() / 100) / 1.3;
         topPos = 6;
         randomMax = 10;
         maxLeft = 100;
         posName = "vw";
+        
     }
     for (var i = 0; i <= bubblecount; i++) {
         var sizeBlue = ((Math.random() * randomMax + 20) / 4);
