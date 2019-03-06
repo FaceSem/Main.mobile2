@@ -3965,6 +3965,7 @@ body {
         .white-head {
             margin-top: -20vw!important;
     }
+}
 
     @media only screen 
     and (device-width : 414px) 
@@ -3977,11 +3978,11 @@ body {
 
     @media screen and (max-width: 375px) {
         .white-head {
-            margin-top: 20vw;
+            margin-top: 16vw;
         }
                 
         .section-1-text {
-            top: 112vw;
+            top: 97vw;
         }
 
         .bubble {
