@@ -3959,7 +3959,16 @@ body {
     @media only screen and (device-width: 375px) and (device-height: 812px) 
     and (-webkit-device-pixel-ratio : 3) {
         .white-head {
-            margin-top: 7vw!important;
+            margin-top: 3vw!important;
+        }
+    }
+
+    @media only screen 
+    and (device-width : 414px) 
+    and (device-height : 736px) 
+    and (-webkit-device-pixel-ratio : 3) {
+        .facial-sheet-img {
+            top: 70vw!important;
         }
      }
 
