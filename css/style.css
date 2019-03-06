@@ -3483,7 +3483,7 @@ body {
     .drop2 {
         position: absolute;
         z-index: 999;
-        width: 18vw;
+        width: 16vw;
         left: 27vw;
         margin-top: 10vw;
         animation-name: floating_1;
