@@ -46,7 +46,7 @@ $(document).ready(function () {
         var positionX = [];
         var positionY = [];
         var fi = [];
-        var startYPosition = $(part + " .section-2").height() * 0.05;
+        var startYPosition = $(part + " .section-2").height() * 0.18;
         var speedX = 0.5;
         var A = $(part + " .bubbles").height() * 0.09;
         var W = (2 * 3.14) / ($(part + " .section-2").width() * 0.98);
