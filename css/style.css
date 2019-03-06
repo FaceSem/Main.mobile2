@@ -3941,7 +3941,7 @@ body {
         }
 
         .white-head {
-            margin-top: 37vw;
+            margin-top: 30vw;
         }
         
         .table-animation {
@@ -3963,7 +3963,7 @@ body {
         }
         
         .white-head {
-            margin-top: -15vw!important;
+            margin-top: -20vw!important;
     }
 
     @media only screen 
@@ -3977,7 +3977,7 @@ body {
 
     @media screen and (max-width: 375px) {
         .white-head {
-            margin-top: 50vw;
+            margin-top: 20vw;
         }
                 
         .section-1-text {
@@ -4040,7 +4040,7 @@ body {
       
     @media screen and (max-width: 320px) {
         .white-head {
-            margin-top: 45vw;
+            margin-top: 20vw;
         }
         
         .section-1-text {

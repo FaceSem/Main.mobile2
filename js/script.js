@@ -41,12 +41,12 @@ $(document).ready(function () {
     var part = "", maxXPositionCoeff;
     if ($(".desktop").css("display") == "none") {
         part = ".mobile";
-        maxXPositionCoeff = 3.2;
+        maxXPositionCoeff = 2.5;
         var maxXPosition = $(part + " .section-2").width() * maxXPositionCoeff;
         var positionX = [];
         var positionY = [];
         var fi = [];
-        var startYPosition = $(part + " .section-2").height() * 0.09;
+        var startYPosition = $(part + " .section-2").height() * 0.05;
         var speedX = 0.5;
         var A = $(part + " .bubbles").height() * 0.09;
         var W = (2 * 3.14) / ($(part + " .section-2").width() * 0.98);
@@ -89,6 +89,8 @@ $(document).ready(function () {
             positionY[i] = startYPosition;
             fi[i] = Math.random() * 1000;
         }
+
+
         $(part + " .bubble").css("left", 0);
         window.setInterval(() => {
             var newPosX, newPosY;
@@ -202,7 +204,7 @@ $(document).ready(function () {
     if ($(".desktop").css("display") == "none") {
         bubblecount = ($(".section-1").width() / 10);
         topPos = 12;
-        randomMax = 180;
+        randomMax = 165;
         maxLeft = 80;
         posName = "vw";
         
