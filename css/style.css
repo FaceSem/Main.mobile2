@@ -3956,6 +3956,13 @@ body {
         }
     }
 
+    @media only screen and (device-width: 375px) and (device-height: 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+        .white-head {
+            margin-top: 7vw!important;
+        }
+     }
+
     @media screen and (max-width: 375px) {
         .white-head {
             margin-top: 35vw;
