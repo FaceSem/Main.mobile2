@@ -3941,7 +3941,7 @@ body {
         }
 
         .white-head {
-            margin-top: 30vw;
+            margin-top: 25vw;
         }
         
         .table-animation {
@@ -4041,11 +4041,11 @@ body {
       
     @media screen and (max-width: 320px) {
         .white-head {
-            margin-top: 20vw;
+            margin-top: 16vw;
         }
         
         .section-1-text {
-            top: 118vw;
+            margin-top: 0vw;
         }
         .bubble {
             user-select: none;
