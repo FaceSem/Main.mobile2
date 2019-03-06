@@ -3937,7 +3937,7 @@ body {
 
     @media screen and (max-width: 425px) {
         .section-1-text {
-            top: 100vw;
+            top: 94vw;
         }
 
         .white-head {
@@ -3959,7 +3959,7 @@ body {
     @media only screen and (device-width: 375px) and (device-height: 812px) 
     and (-webkit-device-pixel-ratio : 3) {
         .section-1-text {
-            top: 90vw!important;
+            top: 95vw!important;
         }
         
         .white-head {
