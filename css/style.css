@@ -2155,7 +2155,7 @@ body {
         }
         
         .facial-sheet-img {
-            top: 80vw;
+            top: 65vw;
             left: 16vw;
             width: 67vw;
             height: 86vw;
@@ -3937,11 +3937,11 @@ body {
 
     @media screen and (max-width: 425px) {
         .section-1-text {
-            top: 98vw;
+            top: 100vw;
         }
 
         .white-head {
-            margin-top: 55vw;
+            margin-top: 30vw;
         }
         
         .table-animation {
@@ -3958,9 +3958,12 @@ body {
 
     @media only screen and (device-width: 375px) and (device-height: 812px) 
     and (-webkit-device-pixel-ratio : 3) {
-        .white-head {
-            margin-top: 3vw!important;
+        .section-1-text {
+            top: 90vw!important;
         }
+        
+        .white-head {
+            margin-top: -15vw!important;
     }
 
     @media only screen 
@@ -3968,7 +3971,7 @@ body {
     and (device-height : 736px) 
     and (-webkit-device-pixel-ratio : 3) {
         .facial-sheet-img {
-            top: 70vw!important;
+            top: 55vw!important;
         }
      }
 
