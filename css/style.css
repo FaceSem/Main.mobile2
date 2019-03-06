@@ -2989,7 +2989,7 @@ body {
     }
 
     .white-head {
-        margin-top: 120vw;
+        margin-top: 85vw;
     }
 
     .white-text {
@@ -3468,13 +3468,28 @@ body {
         margin-top: 4vw;
         width: 74vw;
         line-height: 5vw;
+        position: relative;
     }
 
     .illustration2 {
         width: 82vw;
         height: 60vw;
         margin-left: 9vw;
+        margin-top: 20vw;
+        position: relative;
+        z-index: 0;
+    }
+
+    .drop2 {
+        position: absolute;
+        z-index: 999;
+        width: 18vw;
+        left: 27vw;
         margin-top: 10vw;
+        animation-name: floating_1;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
     }
 
     .btn-4 {
@@ -3926,7 +3941,7 @@ body {
         }
 
         .white-head {
-            margin-top: 50vw;
+            margin-top: 35vw;
         }
         
         .table-animation {
@@ -3943,7 +3958,7 @@ body {
 
     @media screen and (max-width: 375px) {
         .white-head {
-            margin-top: 40vw;
+            margin-top: 35vw;
         }
                 
         .section-1-text {
@@ -4006,7 +4021,7 @@ body {
       
     @media screen and (max-width: 320px) {
         .white-head {
-            margin-top: 35vw;
+            margin-top: 30vw;
         }
         
         .section-1-text {
