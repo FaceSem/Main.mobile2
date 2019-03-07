@@ -2074,7 +2074,7 @@ body {
         margin-top: 68px;
         width: 100%;
         z-index: 2;
-        height: 100vw;
+        height: 140vw;
     }
 
     .facial-sheet-img {
@@ -2310,6 +2310,7 @@ body {
         display: flex;
         flex-direction: column;
         color: rgb(80, 80, 80);
+        position: relative;
     }
 
     .spoiler-header-left-part {
@@ -2775,6 +2776,7 @@ body {
         margin-top: 0vw;
         margin-right: 12vw;
         line-height: 1.27;
+        position: relative;
     }
 
     .spoiler-logo {
@@ -2783,6 +2785,72 @@ body {
         z-index: 999;
         margin-bottom: -9vw;
         position: relative;
+    }
+
+    .bubble1 {
+        position: absolute;
+        top: 95vw;
+        left: 5vw;
+        width: 12vw;
+        animation-name: floating_1;
+        animation-duration: 11s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+    .bubble2 {
+        position: absolute;
+        top: 84vw;
+        left: 18vw;
+        width: 10vw;
+        animation-name: floating_1;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+    .bubble3 {
+        position: absolute;
+        top: 108vw;
+        left: 16vw;
+        width: 6vw;
+        animation-name: floating_1;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+    .bubble4 {
+        position: absolute;
+        top: 100vw;
+        left: 86vw;
+        width: 12vw;
+        animation-name: floating_1;
+        animation-duration: 11s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+    .bubble5 {
+        position: absolute;
+        width: 10vw;
+        top: 90vw;
+        left: 75vw;
+        animation-name: floating_1;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+    .bubble6 {
+        position: absolute;
+        width: 6vw;
+        top: 106vw;
+        left: 76vw;
+        animation-name: floating_1;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
     }
 
     .menu-click {
@@ -2989,7 +3057,7 @@ body {
     }
 
     .white-head {
-        margin-top: 65vw;
+        margin-top: 10vw;
     }
 
     .white-text {
@@ -3941,7 +4009,7 @@ body {
         }
 
         .white-head {
-            margin-top: 50vw;
+            margin-top: 10vw;
         }
         
         .table-animation {
@@ -3982,7 +4050,7 @@ body {
 
     @media screen and (max-width: 375px) {
         .white-head {
-            margin-top: 45vw!important;
+            margin-top: 5vw!important;
         }
                 
         .section-1-text {
