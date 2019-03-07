@@ -2074,7 +2074,7 @@ body {
         margin-top: 68px;
         width: 100%;
         z-index: 2;
-        height: 100vh;
+        height: 100vw;
     }
 
     .facial-sheet-img {
@@ -2091,7 +2091,7 @@ body {
         color: #000000;
         font-weight: bold;
         font-size: 5.5vw;
-        top: 108vw;
+        top: 85vw;
         z-index: 3;
     }
 
@@ -2155,7 +2155,7 @@ body {
         }
         
         .facial-sheet-img {
-            top: 60vw;
+            top: 50vw;
             left: 16vw;
             width: 67vw;
             height: 86vw;
@@ -2985,11 +2985,11 @@ body {
 
     .white-header {
         background-color: white;
-        margin-top: -10vw;
+        margin-top: 10vw
     }
 
     .white-head {
-        margin-top: 85vw;
+        margin-top: 65vw;
     }
 
     .white-text {
@@ -3941,7 +3941,7 @@ body {
         }
 
         .white-head {
-            margin-top: 25vw;
+            margin-top: 50vw;
         }
         
         .table-animation {
@@ -3959,12 +3959,16 @@ body {
     @media only screen and (device-width: 375px) and (device-height: 812px) 
     and (-webkit-device-pixel-ratio : 3) {
         .section-1-text {
-            top: 95vw!important;
+            top: 75vw!important;
         }
         
         .white-head {
             margin-top: -20vw!important;
-    }
+        }
+
+        .facial-sheet-img {
+            top: 45vw;
+        }
 }
 
     @media only screen 
@@ -3978,11 +3982,11 @@ body {
 
     @media screen and (max-width: 375px) {
         .white-head {
-            margin-top: 25vw;
+            margin-top: 45vw!important;
         }
                 
         .section-1-text {
-            top: 93vw;
+            top: 83vw;
         }
 
         .bubble {
