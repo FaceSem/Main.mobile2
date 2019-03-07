@@ -204,7 +204,7 @@ $(document).ready(function () {
     if ($(".desktop").css("display") == "none") {
         bubblecount = ($(".section-1").width() / 10);
         topPos = 12;
-        randomMax = 140;
+        randomMax = 145;
         maxLeft = 80;
         posName = "vw";
         
