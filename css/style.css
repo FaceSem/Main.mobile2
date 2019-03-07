@@ -2074,7 +2074,7 @@ body {
         margin-top: 68px;
         width: 100%;
         z-index: 2;
-        height: 140vw;
+        height: 135vw;
     }
 
     .facial-sheet-img {
@@ -2793,7 +2793,7 @@ body {
         left: 5vw;
         width: 12vw;
         animation-name: floating_1;
-        animation-duration: 11s;
+        animation-duration: 9s;
         animation-iteration-count: infinite;
         animation-timing-function: ease-in-out;
     }
@@ -2826,7 +2826,7 @@ body {
         left: 86vw;
         width: 12vw;
         animation-name: floating_1;
-        animation-duration: 11s;
+        animation-duration: 9s;
         animation-iteration-count: infinite;
         animation-timing-function: ease-in-out;
     }
@@ -4050,7 +4050,7 @@ body {
 
     @media screen and (max-width: 375px) {
         .white-head {
-            margin-top: 5vw!important;
+            margin-top: 1vw!important;
         }
                 
         .section-1-text {
