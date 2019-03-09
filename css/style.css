@@ -2091,7 +2091,7 @@ body {
         color: #000000;
         font-weight: bold;
         font-size: 5.5vw;
-        top: 85vw;
+        top: 50vh;
         z-index: 3;
     }
 
@@ -2155,7 +2155,7 @@ body {
         }
         
         .facial-sheet-img {
-            top: 50vw;
+            top: 34vh;
             left: 16vw;
             width: 67vw;
             height: 86vw;
@@ -3057,7 +3057,7 @@ body {
     }
 
     .white-head {
-        margin-top: 10vw;
+        margin-top: -29vw;
     }
 
     .white-text {
@@ -4003,9 +4003,9 @@ body {
       .img-15{ animation-delay: 15s }
       .img-16{ animation-delay: 16s }
 
-    @media screen and (max-width: 425px) {
+    /* @media screen and (max-width: 425px) {
         .section-1-text {
-            top: 83vw;
+            margin-top: 65vw;
         }
 
         .white-head {
@@ -4028,6 +4028,10 @@ body {
     and (device-width : 414px) 
     and (device-height : 896px) 
     and (-webkit-device-pixel-ratio : 2) {
+        .section-1-text {
+            margin-top: 65vw;
+        }
+        
         .white-head {
             margin-top: 45vw!important;
         }
@@ -4172,7 +4176,7 @@ body {
             width: 25vw;
             height: 7.1vw;
         }
-    }
+    } */
 
     .bag {
         position: absolute;
