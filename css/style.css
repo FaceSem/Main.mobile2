@@ -2074,7 +2074,7 @@ body {
         margin-top: 68px;
         width: 100%;
         z-index: 2;
-        height: 145vw;
+        height: 100vh;
     }
 
     .facial-sheet-img {
@@ -4009,7 +4009,7 @@ body {
         }
 
         .white-head {
-            margin-top: 10vw;
+            margin-top: -27vw;
         }
         
         .table-animation {
@@ -4040,7 +4040,7 @@ body {
         }
         
         .white-head {
-            margin-top: 35vw!important;
+            margin-top: -29vw!important;
         }
 
         .facial-sheet-img {
@@ -4059,7 +4059,7 @@ body {
 
     @media screen and (max-width: 375px) {
         .white-head {
-            margin-top: 5vw;
+            margin-top: -29vw;
         }
                 
         .section-1-text {
@@ -4122,7 +4122,7 @@ body {
       
     @media screen and (max-width: 320px) {
         .white-head {
-            margin-top: 16vw;
+            margin-top: -30vw;
         }
         
         .section-1-text {
